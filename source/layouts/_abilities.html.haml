@@ -1,4 +1,5 @@
-- abilities = YAML.load_file('./data/extras.yml')[abilities]
+- abilities = YAML.load_file('./data/abilities.yml')
+
 
 - abilities.each do |ability|
-  = partial('layouts/ability', locals: { ability: ability })
+  = partial('layouts/ability', locals: { ability: ability.values.first })

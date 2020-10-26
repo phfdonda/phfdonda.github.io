@@ -1,0 +1,12 @@
+%form{action: ""}
+  .field
+    %label{for: "name"} Your name
+    %input#name{type: "text"}/
+  .field
+    %label{:for => "email"} Your email
+    %input#email{type: "email"}/
+  .field
+    %label{:for => "text"}
+    %textarea#text{placeholder: "A penny for your thoughts...", rolls: "120"}
+  .field
+    %input#submit{type: "submit"}/

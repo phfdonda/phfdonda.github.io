@@ -14,8 +14,15 @@ portfolio:
     extra: layouts/showcase
 about-me:
   - number: 03
-    prewords:
+    prewords: A few words
     title: About me
     text:
     action: layouts/get-resume
     extra: layouts/abilities
+get-in-touch:
+  - number: 04
+    prewords: Like what you see?
+    title: Get in touch :)
+    text: Need a web development done? I'm game! Let's talk!
+    action: layouts/form
+    extra: layouts/socials

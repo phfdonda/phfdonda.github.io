@@ -1,0 +1,20 @@
+- green:
+    name: Languages
+    color: '#22B07D'
+    symbol_path: images/hash.svg
+    items: [JS, Ruby, Python, HTML5 & HAML, CSS3 & SASS]
+- blue:
+    name: Frameworks
+    color: '#376AED'
+    symbol_path: images/squares.svg
+    items: [React, jQuery, Rails, RSpec, Gulp]
+- yellow:
+    name: Usefull Skills
+    color: '#F19D2A'
+    symbol_path: images/lamp.svg
+    items: [Gitflow, Photoshop, Illustrator, Fluent English, SCRUM]
+- red:
+    name: Soft Skills
+    color: '#DB4747'
+    symbol_path: images/heart.svg
+    items: [Empathy, Leadership, Remote Collab, Eager to Learn]

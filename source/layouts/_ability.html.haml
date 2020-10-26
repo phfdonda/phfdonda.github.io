@@ -1,6 +1,10 @@
-- color = ability[0]
-- ability = ability[1]
-
-.hability
+.ability
   .symbol-box
-    .circle{style: "background-color: #{color}" }
+    %img.symbol{alt: "hash", src: ability['symbol_path']}
+    .circle{style: "background-color: #{ability['color']}" }
+  %h3
+    = ability['name']
+  %ul
+    -ability['items'].each do |item|
+      %li
+        = item
