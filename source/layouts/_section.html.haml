@@ -1,0 +1,19 @@
+
+- section = YAML.load_file('./data/sections.yml')[data_of_section].first
+- action_content = (partial section['action']) unless section['action'].blank?
+- extra_content = (partial section['extra']) unless section['extra'].blank?
+
+.section-header
+  .top
+    .number
+      = section['number']
+    .pre-words
+      = section['prewords']
+  %h1.title
+    = section['title']
+  %p
+    = section['text']
+  .action
+    = action_content
+.extra
+  = extra_content

@@ -1,0 +1,12 @@
+
+- project = YAML.load_file('./data/projects.yml')[data_of_project].first
+
+.project
+  %h4
+    = project['name']
+  %a{href: project['link'], target: "_blank"}
+    .see-more-btn
+      %span.see-text
+        Check this project
+        %span
+          %img.arrow{alt: "arrow", src: "images/arrow.svg"}

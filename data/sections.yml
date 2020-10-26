@@ -1,0 +1,19 @@
+introduction:
+  - number: 01
+    prewords: Hello! My name is
+    title: <span.first> Pedro </span> Donda
+    text: Glad to meet you! I am a Full-Stack Web Developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.
+    action: layouts/socials
+    extra:
+portfolio:
+  - number: 02
+    prewords: My recent works
+    title: Porfolio
+    text:
+    action: 
+    extra: layouts/showcase
+about_me:
+  - number: 03
+    prewords:
+    title: About me
+    text:

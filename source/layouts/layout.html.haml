@@ -1,0 +1,9 @@
+!!!
+%html
+  %head
+    %title
+      = current_page.data.title || "Portfolio"
+    %link{:href => "style.css", :rel => "stylesheet"}
+    = javascript_include_tag "all"
+  %body
+    = yield
