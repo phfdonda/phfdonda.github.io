@@ -8,6 +8,9 @@
 %section
   = partial(section_path, locals: { data_of_section: 'portfolio' })
 
+%section
+  = partial(section_path, locals: { data_of_section: 'about-me' })
+
 -# .box.recent-works
 -#   .top
 -#     %h1.number 02
@@ -38,18 +41,6 @@
 -#             Check this project
 -#             %span
 -#               %img.arrow{:alt => "arrow", :src => "images/arrow.svg"}/
-.box.about-me
-  .header
-    .top
-      %h1.number 03
-      %p.first-words A few words
-      %h1.name About me
-    %p.description Glad to meet you! I am a Full-Stack Web Developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.
-    %a{:download => "Resume - PEDRO DONDA", :href => "./images/Resume - PEDRO DONDA.pdf"}
-      .get-my-resume
-        Get my resume
-        %span
-          %img.arrow{:alt => "arrow", :src => "images/download.svg"}/
 
 
   -# .habilities

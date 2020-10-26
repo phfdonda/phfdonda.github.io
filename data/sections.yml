@@ -10,10 +10,12 @@ portfolio:
     prewords: My recent works
     title: Porfolio
     text:
-    action: 
+    action:
     extra: layouts/showcase
-about_me:
+about-me:
   - number: 03
     prewords:
     title: About me
     text:
+    action: layouts/get-resume
+    extra: layouts/abilities
