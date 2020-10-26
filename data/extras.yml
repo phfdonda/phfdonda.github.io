@@ -1,17 +1,17 @@
-habilities:
-  - name: Languages
-    color: green
-    symbol_path: images/hash.svg
-    items: [JavaScript ES6, Ruby, Python, HTML5, CSS3]
-  - name: Frameworks
-    color: blue
-    symbol_path: images/squares.svg
-    items: [JavaScript ES6, Ruby, Python, HTML5, CSS3]
-  - name: Usefull Skills
-    color: yellow
-    symbol_path: images/lamp.svg
-    items: [React, jQuery, Rails, RSpec, Gulp]
-  - name: Soft Skills
-    color: red
-    symbol_path: images/heart.svg
-    items: [Empathy, Leadership, Remote Collab, Eager to Learn]
+abilities:
+  - green:
+    - name: Languages
+      symbol_path: images/hash.svg
+      items: [JS, Ruby, Python, HTML5 & HAML, CSS3 & SASS]
+  - blue:
+    - name: Frameworks
+      symbol_path: images/squares.svg
+      items: [JavaScript ES6, Ruby, Python, HTML5, CSS3]
+  - yellow:
+    - name: Usefull Skills
+      symbol_path: images/lamp.svg
+      items: [React, jQuery, Rails, RSpec, Gulp]
+  - red:
+    - name: Soft Skills
+      symbol_path: images/heart.svg
+      items: [Empathy, Leadership, Remote Collab, Eager to Learn]
