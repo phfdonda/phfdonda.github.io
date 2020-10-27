@@ -1,119 +1,15 @@
 
-- section_path = "layouts/section"
+- path = "layouts/section"
 
 
-%section
-  = partial(section_path, locals: { data_of_section: 'introduction' })
+%section#introduction
+  = partial(path, locals: { data_of_section: 'introduction' })
 
-%section
-  = partial(section_path, locals: { data_of_section: 'portfolio' })
+%section#portfolio
+  = partial(path, locals: { data_of_section: 'portfolio' })
 
-%section
-  = partial(section_path, locals: { data_of_section: 'about-me' })
+%section#about-me
+  = partial(path, locals: { data_of_section: 'about-me' })
 
-%section
-  = partial(section_path, locals: { data_of_section: 'get-in-touch' })
--# .box.recent-works
--#   .top
--#     %h1.number 02
--#     %p.first-words Some projects of my
--#     %h1.name Portfolio
--#   #projects
--#     #first-project.project
--#       %h4.project-name Story Weavers
--#       %a{:href => "https://github.com/phfdonda/story-weavers", :target => "_blank"}
--#         #story-weavers-btn.see-more-btn
--#           %span.see-text
--#             Check this project
--#             %span
--#               %img.arrow{:alt => "arrow", :src => "images/arrow.svg"}/
--#     #second-project.project
--#       %h4.project-name adoptMEow
--#       %a{:href => "https://github.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools", :target => "_blank"}
--#         #adoptmeow-btn.see-more-btn
--#           %span.see-text
--#             Check this project
--#             %span
--#               %img.arrow{:alt => "arrow", :src => "images/arrow.svg"}/
--#     #third-project.project
--#       %h4.project-name adoptMEow
--#       %a{:href => "https://github.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools", :target => "_blank"}
--#         #adoptmeow-btn.see-more-btn
--#           %span.see-text
--#             Check this project
--#             %span
--#               %img.arrow{:alt => "arrow", :src => "images/arrow.svg"}/
-
-
-  -# .habilities
-  -#   .hability
-  -#     .symbol-box
-  -#       %img.symbol{:alt => "#", :src => "images/hash.svg"}/
-  -#       .circle.green
-  -#     %h3 Languages
-  -#     %ul
-  -#       %li JavaScript ES6
-  -#       %li Ruby
-  -#       %li Python
-  -#       %li HTML5
-  -#       %li CSS3
-  -#   .hability
-  -#     .symbol-box
-  -#       .circle.blue
-  -#       %img.symbol{:alt => "#", :src => "images/Rectangle 18.svg"}/
-  -#     %h3 Frameworks &amp; Lib
-  -#     %ul
-  -#       %li React
-  -#       %li jQuery
-  -#       %li Rails
-  -#       %li Bootstrap
-  -#       %li RSpec
-  -#   .hability
-  -#     .symbol-box
-  -#       .circle.yellow
-  -#       %img.symbol{:alt => "#", :src => "images/lamp.svg"}/
-  -#     %h3 Usefull Skills
-  -#     %ul
-  -#       %li Gitflow
-  -#       %li Photoshop
-  -#       %li Illustrator
-  -#       %li Fluent English
-  -#       %li SCRUM
-  -#   .hability
-  -#     .symbol-box
-  -#       .circle.red
-  -#       %img.symbol{:alt => "#", :src => "images/heart.svg"}/
-  -#     %h3 Soft Skills
-  -#     %ul
-  -#       %li Empathy
-  -#       %li Leadership
-  -#       %li Remote
-  -#       %li Eager to Learn
-
-
-
--# .box.get-in-touch
--#   .top
--#     %h1.number 04
--#     %p.first-words Like what you see?
--#     %h1.name Get in touch!
--#   %p.decription Glad to meet you! I am a Full-Stack Web Developer! I can help you build a product, feature or website.
--#   %form{:action => ""}
--#     .field
--#       %label{:for => "name"} Your name
--#       %input#name{:type => "text"}/
--#     .field
--#       %label{:for => "email"} Your email
--#       %input#email{:type => "email"}/
--#     .field
--#       %label{:for => "text"}
--#       %textarea#text{:placeholder => "A penny for your thoughts...", :rolls => "120"}
--#     .field
--#       %input#submit{:type => "submit"}/
--#   .socials
--#     %a{:href => "https://github.com/phfdonda"}
--#       %img.social{:alt => "github", :src => "images/github.svg"}/
--#     %a{:href => "https://www.linkedin.com/in/pedro-donda/"}
--#       %img.social{:alt => "linkedin", :src => "images/linkedin.svg"}/
--#     %a{:href => "https://twitter.com/phfdonda"}
--#       %img.social{:alt => "twitter", :src => "images/twitter.svg"}/
+%section#get-in-touch
+  = partial(path, locals: { data_of_section: 'get-in-touch' })

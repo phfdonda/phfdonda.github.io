@@ -210,22 +210,6 @@ label {
   position: relative;
 }
 
-.green {
-  background-color: #22B07D;
-}
-
-.red {
-  background-color: #DB4747;
-}
-
-.blue {
-  background-color: #376AED;
-}
-
-.yellow {
-  background-color: #F19D2A;
-}
-
 .symbol {
   position: absolute;
   height: 20px;
@@ -257,7 +241,7 @@ label {
   width: 8vmin;
 }
 
-.habilities {
+.abilities {
   display: grid;
   width: 265px;
   height: 265px;
@@ -268,6 +252,15 @@ label {
   grid-gap: 25px;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
   body {
